@@ -10,6 +10,9 @@ export default function Home() {
       </Head>
 
       <div className={styles.content}>
+      <div className={styles.background}>
+        <img src="/background.png" alt="background" />
+      </div>
         <header>
           <h2>VitorK</h2>
           <div className="icons">
@@ -18,6 +21,7 @@ export default function Home() {
             <img src="/git-icon.svg" alt="git" />
           </div>
         </header>
+
       </div>
     </div>
 
