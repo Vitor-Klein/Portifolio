@@ -1,8 +1,18 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Lottie from 'react-lottie';
+import animationData from '../assets/git-animation.json';
 
 import styles from "../styles/home.module.scss";
 
 export default function Home() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    renderSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
   return (
     <>
       <div className={styles.container}>
@@ -35,6 +45,17 @@ export default function Home() {
               the Bootcamp GoStack and that's it.... <br />
             </h2>
           </div>
+
+          <div className={styles.animation}>
+            <Lottie
+              options={defaultOptions}
+              height={250}
+              width={400}
+              style={{ marginLeft: '-21px' }}
+            />
+            <h1>My repositóries</h1>
+          </div>
+
         </div>
       </div>
     </>
