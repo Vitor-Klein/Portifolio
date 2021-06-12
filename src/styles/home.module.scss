@@ -34,10 +34,20 @@
       }
     }
     .texts {
+      text-align: start;
       h2 {
         margin-top: 8rem;
         position: relative;
       }
+    }
+  }
+}
+
+@media (max-width:700px){
+  .texts{
+    h2{
+      margin-left: 1rem;
+      margin-right: 0.5rem;
     }
   }
 }
