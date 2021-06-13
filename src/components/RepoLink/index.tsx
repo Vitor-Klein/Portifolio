@@ -9,7 +9,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   date: string;
 }
 
-const Repositorio: React.FC<ButtonProps> = ({ children, url = '', name = '', date = '', ...rest }) => {
+const RepoLink: React.FC<ButtonProps> = ({ children, url = '', name = '', date = '', ...rest }) => {
   return (
     <>
       <Link href={url}>
@@ -25,4 +25,4 @@ const Repositorio: React.FC<ButtonProps> = ({ children, url = '', name = '', dat
   )
 }
 
-export default Repositorio;
+export default RepoLink;

@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Lottie from 'react-lottie';
 import animationData from '../assets/git-animation.json';
 
-import Repositorio from '../components/Repositorio';
+import RepoLink from '../components/RepoLink';
 
 import styles from "../styles/home.module.scss";
 
@@ -58,15 +58,15 @@ export default function Home() {
             <h1>My Top repositóries</h1>
           </div>
 
-          <Repositorio
+          <RepoLink
             name="Be-The-Hero"
             date="MAR 28, 2020"
           />
-          <Repositorio
+          <RepoLink
             name="Podcastr"
             date="APR 24, 2021"
           />
-          <Repositorio
+          <RepoLink
             name="Go-Barber"
             date="JUN 6, 2021"
           />
