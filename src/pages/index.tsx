@@ -58,9 +58,18 @@ export default function Home() {
             <h1>My Top repositóries</h1>
           </div>
 
-          <Repositorio />
-          <Repositorio />
-          <Repositorio />
+          <Repositorio
+            name="Be-The-Hero"
+            date="MAR 28, 2020"
+          />
+          <Repositorio
+            name="Podcastr"
+            date="APR 24, 2021"
+          />
+          <Repositorio
+            name="Go-Barber"
+            date="JUN 6, 2021"
+          />
         </div>
       </div>
     </>

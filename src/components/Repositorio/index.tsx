@@ -1,16 +1,28 @@
+import Link from 'next/link';
+import React, { ButtonHTMLAttributes } from 'react'
+
 import styles from "./repositorio.module.scss";
 
-export default function Repositorio() {
-  return(
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+  url?: string;
+  name: string;
+  date: string;
+}
+
+const Repositorio: React.FC<ButtonProps> = ({ children, url = '', name = '', date = '', ...rest }) => {
+  return (
     <>
-    <div className={styles.repo} onClick={() => {}}>
-            <div className={styles.repoTexts}>
-              <h1>Be-The-Hero</h1>
-              <h2>MAR 28, 2020 </h2>
-            </div>
-            <hr />
+      <Link href={url}>
+        <button className={styles.repo} onClick={() => { }}>
+          <div className={styles.repoTexts}>
+            <h1>{name}</h1>
+            <h2>{date}</h2>
           </div>
+          <hr />
+        </button>
+      </Link>
     </>
   )
-
 }
+
+export default Repositorio;

@@ -1,6 +1,9 @@
 .repo{
-  margin-top: 10rem;
+  margin-top: 7.5rem;
   cursor: pointer;
+  margin-bottom: 1rem;
+  background-color: var(--background);
+  border: none;
 
  .repoTexts{
    display: flex;
@@ -16,7 +19,7 @@
 @media (max-width: 700px) {
   .repo{
     .repoTexts{
-      width: 20rem;
+      width: 25rem;
     }
   }
 }
