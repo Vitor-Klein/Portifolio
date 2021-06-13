@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Lottie from 'react-lottie';
 import animationData from '../assets/git-animation.json';
 
+import Repositorio from '../components/Repositorio';
+
 import styles from "../styles/home.module.scss";
 
 export default function Home() {
@@ -56,14 +58,9 @@ export default function Home() {
             <h1>My Top repositóries</h1>
           </div>
 
-          <div className={styles.repo} onClick={() => {}}>
-            <div className={styles.repoTexts}>
-              <h1>Be-The-Hero</h1>
-              <h2>MAR 28, 2020 </h2>
-            </div>
-            <hr />
-          </div>
-
+          <Repositorio />
+          <Repositorio />
+          <Repositorio />
         </div>
       </div>
     </>

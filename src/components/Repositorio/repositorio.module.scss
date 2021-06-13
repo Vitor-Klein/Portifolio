@@ -1,0 +1,22 @@
+.repo{
+  margin-top: 10rem;
+  cursor: pointer;
+
+ .repoTexts{
+   display: flex;
+   justify-content:space-between;
+   align-items:center;
+   width: 60rem;
+ }
+ hr{
+   margin-top:1.2rem
+ }
+}
+
+@media (max-width: 700px) {
+  .repo{
+    .repoTexts{
+      width: 20rem;
+    }
+  }
+}
