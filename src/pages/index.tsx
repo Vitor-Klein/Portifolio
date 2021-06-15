@@ -79,6 +79,21 @@ export default function Home() {
             date="JUN 6, 2021"
             url="https://github.com/Vitor-Klein/GoBarber-BootcampGoStack"
           />
+
+          <div className={styles.link}>
+            <h1>Links to contact-me</h1>
+            <div className={styles.buttons}>
+              <button>
+                <img src="/gmail-icon.svg" alt="twitter" />
+              </button>
+              <button>
+                <img src="/twitter-icon.svg" alt="twitter" />
+              </button>
+              <button>
+                <img src="/rocket-icon.svg" alt="twitter" />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </>

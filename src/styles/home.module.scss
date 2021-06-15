@@ -51,6 +51,29 @@
 
       }
     }
+
+    .link{
+      text-align: center;
+      h1{
+        margin-top: 12rem;
+      margin-bottom:7rem;
+      }
+      .buttons{
+        width: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button{
+          background-color:var(--blue);
+          width: 16rem;
+          height: 5rem;
+          border: none;
+          border-radius:0.8rem;
+          margin-bottom:5rem;
+        }
+      }
+    }
   }
 }
 
