@@ -26,9 +26,15 @@ export default function Home() {
           <header>
             <h2>VitorK</h2>
             <div className="icons">
-              <img src="/linkedin-icon.svg" alt="linkedin" />
-              <img src="/insta-icon.svg" alt="insta" />
-              <img src="/git-icon.svg" alt="git" />
+              <a href="https://www.linkedin.com/in/vitor-klein/">
+                <img src="/linkedin-icon.svg" alt="linkedin"/>
+              </a>
+              <a href="https://www.instagram.com/vitor__klein/">
+                <img src="/insta-icon.svg" alt="insta" />
+              </a>
+              <a href="https://github.com/Vitor-Klein">
+                <img src="/git-icon.svg" alt="git" />
+              </a>
             </div>
           </header>
 
@@ -61,14 +67,17 @@ export default function Home() {
           <RepoLink
             name="Be-The-Hero"
             date="MAR 28, 2020"
+            url="https://github.com/Vitor-Klein/Be-The-Hero"
           />
           <RepoLink
             name="Podcastr"
             date="APR 24, 2021"
+            url="https://github.com/Vitor-Klein/NLW-5-trilha-ReactJS"
           />
           <RepoLink
             name="Go-Barber"
             date="JUN 6, 2021"
+            url="https://github.com/Vitor-Klein/GoBarber-BootcampGoStack"
           />
         </div>
       </div>
