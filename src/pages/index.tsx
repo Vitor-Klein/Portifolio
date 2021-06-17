@@ -3,6 +3,8 @@ import Lottie from 'react-lottie';
 import animationData from '../assets/git-animation.json';
 
 import RepoLink from '../components/RepoLink';
+import Links from '../components/Links';
+import Header from '../components/Header';
 
 import styles from "../styles/home.module.scss";
 
@@ -23,20 +25,7 @@ export default function Home() {
         </Head>
 
         <div className={styles.content}>
-          <header>
-            <h2>VitorK</h2>
-            <div className="icons">
-              <a href="https://www.linkedin.com/in/vitor-klein/">
-                <img src="/linkedin-icon.svg" alt="linkedin"/>
-              </a>
-              <a href="https://www.instagram.com/vitor__klein/">
-                <img src="/insta-icon.svg" alt="insta" />
-              </a>
-              <a href="https://github.com/Vitor-Klein">
-                <img src="/git-icon.svg" alt="git" />
-              </a>
-            </div>
-          </header>
+          <Header />
 
           <div className={styles.background}>
             <img src="/background.png" alt="background" />
@@ -80,20 +69,7 @@ export default function Home() {
             url="https://github.com/Vitor-Klein/GoBarber-BootcampGoStack"
           />
 
-          <div className={styles.link}>
-            <h1>Links to contact-me</h1>
-            <div className={styles.buttons}>
-              <button style={{ backgroundColor: "var(--red)" }}>
-                <img src="/gmail-icon.svg" alt="twitter" />
-              </button>
-              <button style={{ backgroundColor: "var(--blue)" }}>
-                <img src="/twitter-icon.svg" alt="twitter" />
-              </button>
-              <button style={{ backgroundColor: "var(--purple)" }}>
-                <img src="/rocket-icon.svg" alt="twitter" />
-              </button>
-            </div>
-          </div>
+          <Links />
         </div>
       </div>
     </>
