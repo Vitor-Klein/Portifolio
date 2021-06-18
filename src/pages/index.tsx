@@ -75,10 +75,10 @@ export default function Home() {
           <h1>A little more about me</h1>
 
             <h2>
-            as I said, currently I do technical high school in computer science, <br />
+            As I said, currently I do technical high school in computer science, <br />
             where two of my specific subjects are, java programming language <br />
             and web programming, which I leave all the codes of all the activities <br />
-            I do during the school year in these two repositories. underneath <br />
+            I do during the school year in these two repositories underneath <br />
             </h2>
           </div>
 
