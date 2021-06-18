@@ -32,6 +32,7 @@ export default function Home() {
           </div>
 
           <div className={styles.texts}>
+            <h1>Who am I?</h1>
             <h2>
               I'm a new programmer, always studying to improve my JS/TS stack <br /> <br />
               I'm looking for my 1st job in the programming area and I'm currently <br />
@@ -67,6 +68,29 @@ export default function Home() {
             name="Go-Barber"
             date="JUN 6, 2021"
             url="https://github.com/Vitor-Klein/GoBarber-BootcampGoStack"
+          />
+
+
+          <div className={styles.texts}>
+          <h1>A little more about me</h1>
+
+            <h2>
+            as I said, currently I do technical high school in computer science, <br />
+            where two of my specific subjects are, java programming language <br />
+            and web programming, which I leave all the codes of all the activities <br />
+            I do during the school year in these two repositories. underneath <br />
+            </h2>
+          </div>
+
+          <RepoLink
+            name="3º info Atv-Java"
+            date="MAY 9, 2021"
+            url="https://github.com/Vitor-Klein/3-info-Atv-Java"
+          />
+          <RepoLink
+            name="3º info Atv-Web"
+            date="APR 8, 2021"
+            url="https://github.com/Vitor-Klein/Atv-Web-Escola-3-ano"
           />
 
           <Links />
