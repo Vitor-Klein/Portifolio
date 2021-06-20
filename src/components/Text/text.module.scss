@@ -1,0 +1,21 @@
+.texts {
+  text-align: start;
+  width: 60%;
+  h2 {
+    margin-top: 5rem;
+    position: static;
+  }
+  h1{
+    margin-top: 10rem;
+   text-align: center;
+   font-size: 3.5rem;
+  }
+}
+
+@media (max-width:700px){
+  .texts {
+    width: 90%;
+    text-align: justify;
+  }
+}
+
