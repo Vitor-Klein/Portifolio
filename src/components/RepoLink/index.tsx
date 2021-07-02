@@ -11,7 +11,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const RepoLink: React.FC<ButtonProps> = ({ children, url = '', name = '', date = '', ...rest }) => {
   return (
-    <>
+    <div className={styles.container}>
       <Link href={url}>
         <button className={styles.repo} onClick={() => { }}>
           <div className={styles.repoTexts}>
@@ -21,7 +21,7 @@ const RepoLink: React.FC<ButtonProps> = ({ children, url = '', name = '', date =
           <hr />
         </button>
       </Link>
-    </>
+    </div>
   )
 }
 
