@@ -24,14 +24,13 @@ export default function Home() {
           </div>
 
           <Text
-            title="Who am I?"
-            content="I'm a new programmer, always studying to improve my JS/TS stack
-            I'm looking for my 1st job in the programming area and I'm currently
-            taking a technical course in IT
-            I've done several NLW's and completed the last Omnistack Week
-            held by Rocketseat, I follow my I study with Rocketseat's
-            cutting-edge content and I'm currently on my way to completing
-            the Bootcamp GoStack and that's it...."
+            title="Quem sou eu?"
+            content="Sou um programador novo do interior do Paraná, estudando sempre para me aperfeiçoar
+            na stack JS/TS, estou em busca do meu 1ºemprego na area de programação
+            e atualmente faço curso tecnico em TI,ja fiz diversas NLW's e completei
+            a ultima Semana Omnistack realizada pela Rocketseat, sigo meus estudos
+            com os conteudos ponta de linha da Rocketseat e atualmente estou no
+            caminho para completar o Bootcamp GoStack e é isso...."
           />
 
           <Animation
@@ -56,11 +55,13 @@ export default function Home() {
 
 
          <Text
-          title="A little more about me"
-          content="As I said, currently I do technical high school in computer science,
-          where two of my specific subjects are, java programming language
-          and web programming, which I leave all the codes of all the activities
-          I do during the school year in these two repositories underneath "
+          title="Mais sobre mim"
+          content="como eu disse anteriormente, atualmente eu faço ensino medio
+          tecnico em informática, curso técnico esse que possui matérias especializadas
+          em programação web com HTML,CSS e JS, quanto uma matéria focada em programação
+          orientada a objetos onde utilizamos Java, criei esses dois repositórios abaixo
+          onde deixo todas as atividades realizadas em todos os trimestres durante o
+          meu 3º ano "
          />
 
           <RepoLink

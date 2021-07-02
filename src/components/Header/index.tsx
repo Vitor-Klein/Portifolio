@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <div className={styles.header}>
         <header>
             <h2>VitorK</h2>
-            <div className="icons">
+            <div className={styles.icons}>
               <Link href="https://www.linkedin.com/in/vitor-klein/">
                 <img src="/linkedin-icon.svg" alt="linkedin"/>
               </Link>

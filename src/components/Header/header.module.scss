@@ -20,9 +20,19 @@
       color: var(--gray4);
     }
 
+  }
+  .icons{
     img {
       margin-right: 2rem;
       cursor: pointer;
+    }
+    img:hover,
+    img:focus{
+      filter: invert(5%)
+      sepia(1%)
+      hue-rotate(346deg)
+      brightness(500%)
+      contrast(80%);
     }
   }
 }

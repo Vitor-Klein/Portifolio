@@ -7,7 +7,7 @@ const Links: React.FC = () => {
   return (
     <>
       <div className={styles.link}>
-        <h1>Links to contact-me</h1>
+        <h1>Links para contato</h1>
         <div className={styles.buttons}>
           <Link href="mailto:vitorhklein2@gmail.com">
             <button style={{ backgroundColor: "var(--red)" }}>
