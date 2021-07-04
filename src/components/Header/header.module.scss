@@ -35,4 +35,22 @@
       contrast(80%);
     }
   }
+
+  .devIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img{
+      margin-left: 1rem;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .devIcons {
+    img{
+      display: none;
+    }
+  }
 }
