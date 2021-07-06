@@ -5,6 +5,7 @@ import Links from '../components/Links';
 import Header from '../components/Header';
 import Text from '../components/Text';
 import Animation from '../components/Animation';
+import FlatList from '../components/flatList';
 
 import styles from "../styles/home.module.scss";
 
@@ -54,15 +55,15 @@ export default function Home() {
           />
 
 
-         <Text
-          title="Mais sobre mim"
-          content="como eu disse anteriormente, atualmente eu faço ensino medio
+          <Text
+            title="Mais sobre mim"
+            content="como eu disse anteriormente, atualmente eu faço ensino medio
           tecnico em informática, curso técnico esse que possui matérias especializadas
           em programação web com HTML,CSS e JS, quanto uma matéria focada em programação
           orientada a objetos onde utilizamos Java, criei esses dois repositórios abaixo
           onde deixo todas as atividades realizadas em todos os trimestres durante o
           meu 3º ano "
-         />
+          />
 
           <RepoLink
             name="Atv-Java"
@@ -74,6 +75,8 @@ export default function Home() {
             date="APR 8, 2021"
             url="https://github.com/Vitor-Klein/Atv-Web-Escola-3-ano"
           />
+
+          <FlatList />
 
           <Links />
         </div>
