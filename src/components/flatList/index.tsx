@@ -7,7 +7,7 @@ const FlatList: React.FC = () => {
   return (
     <>
       <div className={styles.text}>
-        <h1>Meus Designs</h1>
+        <h1>Alguns dos meus Designs</h1>
       </div>
 
 
