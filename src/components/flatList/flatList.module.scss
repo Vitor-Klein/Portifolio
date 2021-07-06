@@ -22,6 +22,26 @@
         width: 40rem;
         height: 28rem;
         border-radius: 0.8rem;
+        margin-right: 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    height: 17.5rem;
+    .wrapper_child {
+      display: flex;
+      .tab {
+        width: 23rem;
+        height: 15rem;
+        margin-left: 2rem;
+        img {
+          width: 23rem;
+          height: 15rem;
+          border-radius: 0.4rem;
+        }
       }
     }
   }
