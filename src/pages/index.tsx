@@ -57,7 +57,7 @@ export default function Home() {
 
           <Text
             title="Mais sobre mim"
-            content="como eu disse anteriormente, atualmente eu faço ensino medio
+            content="Como eu disse anteriormente, atualmente eu faço ensino medio
           tecnico em informática, curso técnico esse que possui matérias especializadas
           em programação web com HTML,CSS e JS, quanto uma matéria focada em programação
           orientada a objetos onde utilizamos Java, criei esses dois repositórios abaixo
@@ -74,6 +74,14 @@ export default function Home() {
             name="Atv-Web"
             date="APR 8, 2021"
             url="https://github.com/Vitor-Klein/Atv-Web-Escola-3-ano"
+          />
+
+          <Text
+            title="UI/UX"
+            content="Alem de dev, tambem estudo um pouco de design,UI e UX
+            vou deixar abaixo alguns dos meus projetos no figma, tanto de aplicações
+            mobile quanto aplicações web, design nao é meu foco principal, mas tenho
+            alguns conhecimentos na area que me ajudam, principalmente no front-end"
           />
 
           <FlatList />

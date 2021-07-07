@@ -6,11 +6,6 @@ import styles from "./flatList.module.scss";
 const FlatList: React.FC = () => {
   return (
     <>
-      <div className={styles.text}>
-        <h1>Alguns dos meus Designs</h1>
-      </div>
-
-
       <div className={styles.wrapper}>
         <div className={styles.wrapper_child}>
           <div className={styles.tab}>
