@@ -29,6 +29,11 @@ const FlatList: React.FC = () => {
               <img src="./capa4.png" alt="capa4" />
             </a>
           </div>
+          <div className={styles.tab}>
+            <a href="https://www.figma.com/file/qPvjkScgj275RnYgPbUIdm/clonacart%C3%A3o?node-id=1%3A285" target="_blank">
+              <img src="./capa5.png" alt="capa5" />
+            </a>
+          </div>
         </div>
       </div>
     </>
