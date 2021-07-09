@@ -21,7 +21,7 @@ um portifólio simples, para pessoas ta area de ti saberem um pouco mais sobre m
 
 ## 🚀 Téconologias
 
-Technologies that I used to develop this web application
+Téconologias que foram usados para a criação desse portifólio
 
 - [Next.js](https://nextjs.org)
 - [SASS](https://sass-lang.com)
