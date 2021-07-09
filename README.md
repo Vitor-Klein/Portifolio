@@ -15,7 +15,7 @@
   <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-## 👨🏻‍💻 About the project
+## 👨🏻‍💻 Sobre esse projeto
 um portifólio simples, para pessoas ta area de ti saberem um pouco mais sobre mim e meu trabalho como dev :)
 
 
