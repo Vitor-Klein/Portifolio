@@ -11,15 +11,15 @@
 </h3>
 
 <p align="center">
-  <a href="#-about-the-project">sobre esse projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#-Sobre esse projeto">sobre esse projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Téconologias">Téconologias</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 ## 👨🏻‍💻 Sobre esse projeto
 um portifólio simples, para pessoas ta area de ti saberem um pouco mais sobre mim e meu trabalho como dev :)
 
 
-## 🚀 Technologies
+## 🚀 Téconologias
 
 Technologies that I used to develop this web application
 
