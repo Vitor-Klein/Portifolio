@@ -21,7 +21,15 @@ export default function Home() {
           <Header />
 
           <div className={styles.background}>
-            <img src="/background.png" alt="background" />
+            <div className={styles.imageContainer}>
+              <div className={styles.avatar}>
+                <img src="https://github.com/Vitor-Klein.png" alt="avatar" />
+                <h2>Olá me chamo Vitor Klein e sou um Desenvolvedor</h2>
+              </div>
+              <div className={styles.imageDev}>
+                <img src="/DevIlustration.png" alt="Dev" />
+              </div>
+            </div>
           </div>
 
           <Text
