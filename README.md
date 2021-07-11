@@ -11,17 +11,17 @@
 </h3>
 
 <p align="center">
-  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#-Sobre esse projeto">sobre esse projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Téconologias">Téconologias</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-## 👨🏻‍💻 About the project
+## 👨🏻‍💻 Sobre esse projeto
 um portifólio simples, para pessoas ta area de ti saberem um pouco mais sobre mim e meu trabalho como dev :)
 
 
-## 🚀 Technologies
+## 🚀 Téconologias
 
-Technologies that I used to develop this web application
+Téconologias que foram usados para a criação desse portifólio
 
 - [Next.js](https://nextjs.org)
 - [SASS](https://sass-lang.com)
