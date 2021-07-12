@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Lottie from 'react-lottie';
 
 import RepoLink from '../components/RepoLink';
 import Links from '../components/Links';
@@ -7,9 +8,19 @@ import Text from '../components/Text';
 import Animation from '../components/Animation';
 import FlatList from '../components/flatList';
 
+import animationData from '../assets/dev.json';
+
 import styles from "../styles/home.module.scss";
 
 export default function Home() {
+  const defaultOptions ={
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    renderSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  }
   return (
     <>
       <div className={styles.container}>
@@ -27,7 +38,12 @@ export default function Home() {
                 <h2>Olá me chamo Vitor Klein e sou um Desenvolvedor</h2>
               </div>
               <div className={styles.imageDev}>
-                <img src="/DevIlustration.png" alt="Dev" />
+              <Lottie
+              options={defaultOptions}
+              height={400}
+              width={450}
+              style={{ marginLeft: '-21px' }}
+            />
               </div>
             </div>
           </div>
