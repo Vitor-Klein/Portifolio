@@ -42,7 +42,6 @@ export default function Home() {
               options={defaultOptions}
               height={400}
               width={450}
-              style={{ marginLeft: '-21px' }}
             />
               </div>
             </div>
