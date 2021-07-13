@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
           <Text
-            title="Quem sou eu?"
+            title="Eu profissional"
             content="Sou um programador novo do interior do Paraná, estudando sempre para me aperfeiçoar
             na stack JS/TS, estou em busca do meu 1ºemprego na area de programação
             e atualmente faço curso tecnico em TI,ja fiz diversas NLW's e completei
@@ -80,7 +80,7 @@ export default function Home() {
 
 
           <Text
-            title="Mais sobre mim"
+            title="Eu estudante"
             content="Como eu disse anteriormente, atualmente eu faço ensino medio
           tecnico em informática, curso técnico esse que possui matérias especializadas
           em programação web com HTML,CSS e JS, quanto uma matéria focada em programação
