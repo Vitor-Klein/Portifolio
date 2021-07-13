@@ -40,8 +40,9 @@ export default function Home() {
               <div className={styles.imageDev}>
               <Lottie
               options={defaultOptions}
-              height={400}
-              width={450}
+              height={600}
+              width={600}
+              style={{ marginTop: '-120px' }}
             />
               </div>
             </div>

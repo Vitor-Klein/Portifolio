@@ -26,17 +26,18 @@
         .avatar {
           text-align: center;
           margin-left: 5rem;
+          margin-top: -5rem;
           img {
             width: 15rem;
             height: 15rem;
-            margin-bottom: 1rem;
+            margin-bottom: 3rem;
             border-radius: 20rem;
             border: 5px solid #6a55b0;
           }
 
           h2 {
-            width: 48rem;
-            font-size: 48px;
+            width: 36rem;
+            font-size: 40px;
             font-family: "Exo 2", sans-serif;
           }
         }
