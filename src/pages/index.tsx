@@ -42,7 +42,7 @@ export default function Home() {
               options={defaultOptions}
               height={600}
               width={600}
-              style={{ marginTop: '-72px' }}
+              style={{ marginTop: '-35px' }}
             />
               </div>
             </div>
