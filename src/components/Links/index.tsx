@@ -10,21 +10,27 @@ const Links: React.FC = () => {
         <h1>Links para contato</h1>
         <div className={styles.buttons}>
           <Link href="mailto:vitorhklein2@gmail.com">
-            <button style={{ backgroundColor: "var(--red)" }}>
+            <div className={styles.margin}>
+            <button>
               <img src="/gmail-icon.svg" alt="twitter" />
             </button>
+            </div>
           </Link>
 
           <Link href="https://twitter.com/VitorHKlein">
-            <button style={{ backgroundColor: "var(--blue)" }}>
+          <div className={styles.margin}>
+            <button>
               <img src="/twitter-icon.svg" alt="twitter" />
             </button>
+            </div>
           </Link>
 
           <Link href="https://app.rocketseat.com.br/me/vitor-klein">
-            <button style={{ backgroundColor: "var(--purple)" }}>
+          <div className={styles.margin}>
+            <button>
               <img src="/rocket-icon.svg" alt="twitter" />
             </button>
+            </div>
           </Link>
         </div>
       </div>

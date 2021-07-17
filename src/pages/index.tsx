@@ -13,12 +13,12 @@ import animationData from '../assets/dev.json';
 import styles from "../styles/home.module.scss";
 
 export default function Home() {
-  const defaultOptions ={
+  const defaultOptions = {
     loop: true,
     autoplay: true,
     animationData: animationData,
     renderSettings: {
-      preserveAspectRatio: "xMidYMid slice"
+      preserveAspectRatio: "xMidYMid meet",
     }
   }
   return (
@@ -38,18 +38,19 @@ export default function Home() {
                 <h2>Olá me chamo Vitor Klein e sou um Desenvolvedor</h2>
               </div>
               <div className={styles.imageDev}>
-              <Lottie
-              options={defaultOptions}
-              height={600}
-              width={600}
-              style={{ marginTop: '-35px' }}
-            />
+                <Lottie
+                  options={defaultOptions}
+                  isClickToPauseDisabled={true}
+                  height={600}
+                  width={600}
+                  style={{ marginTop: '-35px' }}
+                />
               </div>
             </div>
           </div>
 
           <Text
-            title="Eu profissional"
+            title="Eu Profissional"
             content="Sou um programador novo do interior do Paraná, estudando sempre para me aperfeiçoar
             na stack JS/TS, estou em busca do meu 1ºemprego na area de programação
             e atualmente faço curso tecnico em TI,ja fiz diversas NLW's e completei
@@ -59,7 +60,13 @@ export default function Home() {
           />
 
           <Animation
-            title="My Top repositóries"
+            title="Meus Principais Repósitórios"
+          />
+
+          <RepoLink
+            name="Podcastr"
+            date="APR 24, 2021"
+            url="https://github.com/Vitor-Klein/NLW-5-trilha-ReactJS"
           />
 
           <RepoLink
@@ -67,11 +74,7 @@ export default function Home() {
             date="MAR 28, 2020"
             url="https://github.com/Vitor-Klein/Be-The-Hero"
           />
-          <RepoLink
-            name="Podcastr"
-            date="APR 24, 2021"
-            url="https://github.com/Vitor-Klein/NLW-5-trilha-ReactJS"
-          />
+
           <RepoLink
             name="Go-Barber"
             date="JUN 6, 2021"
@@ -80,13 +83,13 @@ export default function Home() {
 
 
           <Text
-            title="Eu estudante"
+            title="Eu Estudante"
             content="Como eu disse anteriormente, atualmente eu faço ensino medio
           tecnico em informática, curso técnico esse que possui matérias especializadas
           em programação web com HTML,CSS e JS, quanto uma matéria focada em programação
           orientada a objetos onde utilizamos Java, criei esses dois repositórios abaixo
           onde deixo todas as atividades realizadas em todos os trimestres durante o
-          meu 3º ano "
+          meu 3º ano. "
           />
 
           <RepoLink
@@ -105,7 +108,7 @@ export default function Home() {
             content="Alem de dev, tambem estudo um pouco de design,UI e UX
             vou deixar abaixo alguns dos meus projetos no figma, tanto de aplicações
             mobile quanto aplicações web, design nao é meu foco principal, mas tenho
-            alguns conhecimentos na area que me ajudam, principalmente no front-end"
+            alguns conhecimentos na area que me ajudam, principalmente no front-end."
           />
 
           <FlatList />

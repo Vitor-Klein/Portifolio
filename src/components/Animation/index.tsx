@@ -25,7 +25,6 @@ const Animation: React.FC<AnimationProps> = ({ children, title = '', ...rest }) 
               options={defaultOptions}
               height={250}
               width={400}
-              style={{ marginLeft: '-21px' }}
             />
             <h2>{title}</h2>
           </div>

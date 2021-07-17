@@ -20,7 +20,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-
         margin-top: 6rem;
 
         .avatar {
@@ -43,10 +42,6 @@
         }
         .imageDev {
           margin-right: 2rem;
-          img {
-            width: 30rem;
-            height: 26rem;
-          }
         }
       }
     }

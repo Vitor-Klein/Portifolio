@@ -3,6 +3,7 @@
   h1 {
     margin-top: 12rem;
     margin-bottom: 7rem;
+    font-size: 4rem;
   }
   .buttons {
     width: 100vh;
@@ -16,6 +17,7 @@
       border: none;
       border-radius: 0.5rem;
       margin-bottom: 5rem;
+      background-color: var(--purple);
     }
     button:hover{
       opacity: 0.8;
@@ -26,15 +28,23 @@
 @media (max-width: 700px) {
   .link {
     .buttons {
-      width: 100%;
-      display: grid;
-      grid-template-columns: repeat(3, 3.33%);
-      justify-items: center;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .margin{
+        padding: 1.5rem;
+      }
 
       button {
-        width: 7rem;
+        width: 6rem;
         margin-bottom: 2rem;
-      border-radius: 0.5rem;
+        border-radius: 0.5rem;
+      }
+
+      img{
+        width: 4rem;
       }
     }
   }
