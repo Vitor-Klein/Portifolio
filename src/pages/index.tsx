@@ -17,9 +17,6 @@ export default function Home() {
     loop: true,
     autoplay: true,
     animationData: animationData,
-    renderSettings: {
-      preserveAspectRatio: "xMidYMid meet",
-    }
   }
   return (
     <>
