@@ -64,6 +64,12 @@ export default function Home() {
           />
 
           <RepoLink
+            name="Gameplay"
+            date="JUN 22, 2021"
+            url="https://github.com/Vitor-Klein/NLW-6-Trilha-ReactNative"
+          />
+
+          <RepoLink
             name="Podcastr"
             date="APR 24, 2021"
             url="https://github.com/Vitor-Klein/NLW-5-trilha-ReactJS"
@@ -74,13 +80,6 @@ export default function Home() {
             date="MAR 28, 2020"
             url="https://github.com/Vitor-Klein/Be-The-Hero"
           />
-
-          <RepoLink
-            name="Go-Barber"
-            date="JUN 6, 2021"
-            url="https://github.com/Vitor-Klein/GoBarber-BootcampGoStack"
-          />
-
 
           <Text
             title="Eu Estudante"
