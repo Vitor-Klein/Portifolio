@@ -7,7 +7,7 @@ const Links: React.FC = () => {
   return (
     <>
       <div className={styles.link}>
-        <h1>Links para contato</h1>
+        <h1>Links Para Contato</h1>
         <div className={styles.buttons}>
           <Link href="mailto:vitorhklein2@gmail.com">
             <div className={styles.margin}>
