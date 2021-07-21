@@ -30,3 +30,7 @@ Téconologias que foram usados para a criação desse portifólio
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [EditorConfig](https://editorconfig.org/)
+
+---
+
+<p align="center">Feito com ❤️ por <strong>Vitor Klein :wave: </p>
