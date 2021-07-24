@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 
 import styles from "./header.module.scss";
 
@@ -23,15 +22,15 @@ const Header: React.FC = () => {
 
 
           <div className={styles.icons}>
-            <Link href="https://www.linkedin.com/in/vitor-klein/">
+            <a href="https://www.linkedin.com/in/vitor-klein/" target="_blank">
               <img src="/linkedin-icon.svg" alt="linkedin" />
-            </Link>
-            <Link href="https://www.instagram.com/vitor__klein/">
+            </a>
+            <a href="https://www.instagram.com/vitor__klein/" target="_blank">
               <img src="/insta-icon.svg" alt="insta" />
-            </Link>
-            <Link href="https://github.com/Vitor-Klein">
+            </a>
+            <a href="https://github.com/Vitor-Klein" target="_blank">
               <img src="/git-icon.svg" alt="git" />
-            </Link>
+            </a>
           </div>
         </header>
       </div>
