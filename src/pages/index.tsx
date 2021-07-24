@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Lottie from 'react-lottie';
 
 import RepoLink from '../components/RepoLink';
 import Links from '../components/Links';
@@ -8,16 +7,9 @@ import Text from '../components/Text';
 import Animation from '../components/Animation';
 import FlatList from '../components/flatList';
 
-import animationData from '../assets/dev.json';
-
 import styles from "../styles/home.module.scss";
 
 export default function Home() {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-  }
   return (
     <>
       <div className={styles.container}>
