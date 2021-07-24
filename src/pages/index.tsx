@@ -30,7 +30,7 @@ export default function Home() {
                 <img src="/DevImage3x.png" alt="devimage" />
               </div>
             </div>
-          </div>
+           </div>
 
           <Text
             title="Eu Profissional"
