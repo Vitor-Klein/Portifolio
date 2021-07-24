@@ -35,13 +35,7 @@ export default function Home() {
                 <h2>Olá me chamo Vitor Klein e sou um Desenvolvedor</h2>
               </div>
               <div className={styles.imageDev}>
-                <Lottie
-                  options={defaultOptions}
-                  isClickToPauseDisabled={true}
-                  height={600}
-                  width={600}
-                  style={{ marginTop: '-35px' }}
-                />
+                <img src="/DevImage3x.png" alt="devimage" />
               </div>
             </div>
           </div>

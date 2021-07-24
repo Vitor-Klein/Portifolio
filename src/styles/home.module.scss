@@ -40,7 +40,11 @@
           }
         }
         .imageDev {
-          margin-right: 2rem;
+          padding: 2rem;
+          img{
+            width: 35rem;
+            height: 35rem;
+          }
         }
       }
     }
