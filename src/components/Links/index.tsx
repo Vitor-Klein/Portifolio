@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 
 import styles from "./links.module.scss";
 
@@ -9,29 +8,29 @@ const Links: React.FC = () => {
       <div className={styles.link}>
         <h1>Links Para Contato</h1>
         <div className={styles.buttons}>
-          <Link href="mailto:vitorhklein2@gmail.com">
+          <a href="mailto:vitorhklein2@gmail.com" target="_blank">
             <div className={styles.margin}>
             <button>
               <img src="/gmail-icon.svg" alt="twitter" />
             </button>
             </div>
-          </Link>
+          </a>
 
-          <Link href="https://twitter.com/VitorHKlein">
+          <a href="https://twitter.com/VitorHKlein" target="_blank">
           <div className={styles.margin}>
             <button>
               <img src="/twitter-icon.svg" alt="twitter" />
             </button>
             </div>
-          </Link>
+          </a>
 
-          <Link href="https://app.rocketseat.com.br/me/vitor-klein">
+          <a href="https://app.rocketseat.com.br/me/vitor-klein" target="_blank">
           <div className={styles.margin}>
             <button>
               <img src="/rocket-icon.svg" alt="twitter" />
             </button>
             </div>
-          </Link>
+          </a>
         </div>
       </div>
     </>
