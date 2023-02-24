@@ -8,6 +8,8 @@ import Animation from '../components/Animation';
 import FlatList from '../components/flatList';
 
 import styles from "../styles/home.module.scss";
+import repoAnimation from '../assets/git-animation.json';
+import devAnimation from '../assets/development.json';
 
 export default function Home() {
   return (
@@ -27,10 +29,14 @@ export default function Home() {
                 <h2>Olá me chamo Vitor Klein e sou um Desenvolvedor</h2>
               </div>
               <div className={styles.imageDev}>
-                <img src="/DevImage3x.png" alt="devimage" />
+                <Animation
+                  url={devAnimation}
+                  height={600}
+                  width={600}
+                />
               </div>
             </div>
-           </div>
+          </div>
 
           <Text
             title="Eu Profissional"
@@ -44,6 +50,9 @@ export default function Home() {
 
           <Animation
             title="Meus Principais Repósitórios"
+            url={repoAnimation}
+            height={250}
+            width={400}
           />
 
           <RepoLink

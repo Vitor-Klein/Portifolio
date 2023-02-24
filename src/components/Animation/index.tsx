@@ -6,14 +6,17 @@ import animationData from '../../assets/git-animation.json';
 import styles from "./animation.module.scss";
 
 interface AnimationProps {
-  title: string;
+  title?: string;
+  url: any;
+  height: any;
+  width: any;
 }
 
-const Animation: React.FC<AnimationProps> = ({ children, title = '', ...rest }) => {
+const Animation: React.FC<AnimationProps> = ({ children, title = '', url = '', height = '', width = '', ...rest }) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: animationData,
+    animationData: url,
     renderSettings: {
       preserveAspectRatio: "xMidYMid slice"
     }
@@ -21,13 +24,13 @@ const Animation: React.FC<AnimationProps> = ({ children, title = '', ...rest }) 
   return (
     <>
       <div className={styles.animation}>
-            <Lottie
-              options={defaultOptions}
-              height={250}
-              width={400}
-            />
-            <h2>{title}</h2>
-          </div>
+        <Lottie
+          options={defaultOptions}
+          height={height}
+          width={width}
+        />
+        <h2>{title}</h2>
+      </div>
     </>
   )
 }
