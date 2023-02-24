@@ -40,12 +40,15 @@ export default function Home() {
 
           <Text
             title="Eu Profissional"
-            content="Sou um programador novo do interior do Paraná, estudando sempre para me aperfeiçoar
-            na stack JS/TS, estou em busca do meu 1ºemprego na area de programação
-            e atualmente faço curso tecnico em TI,ja fiz diversas NLW's e completei
-            a ultima Semana Omnistack realizada pela Rocketseat, sigo meus estudos
-            com os conteudos ponta de linha da Rocketseat e atualmente estou no
-            caminho para completar o Bootcamp GoStack e é isso...."
+            content="Sou um programador dedicado, sempre em busca de aprimorar 
+            minhas habilidades na stack JS/TS. Possuo formação técnica em 
+            informática pelo Colégio Estadual João Manuel Mondrone 
+            de Medianeira, PR e já participei de diversas NLWs, incluindo a 
+            última Semana Omnistack promovida pela Rocketseat. Busco sempre 
+            me manter atualizado com os conteúdos de ponta da Rocketseat e de 
+            outras fontes confiáveis. Fique à vontade para entrar em contato 
+            ou me seguir nas redes sociais, cujos links estão disponíveis acima.
+            Nunca paro de aprender e estou aberto a novas oportunidades de trabalho."
           />
 
           <Animation
@@ -75,12 +78,12 @@ export default function Home() {
 
           <Text
             title="Eu Estudante"
-            content="Como eu disse anteriormente, atualmente eu faço ensino medio
-          tecnico em informática, curso técnico esse que possui matérias especializadas
-          em programação web com HTML,CSS e JS, quanto uma matéria focada em programação
-          orientada a objetos onde utilizamos Java, criei esses dois repositórios abaixo
-          onde deixo todas as atividades realizadas em todos os trimestres durante o
-          meu 3º ano. "
+            content="Como eu disse anteriormente, atualmente Possuo formação técnica em 
+            informática pelo Colégio Estadual João Manuel Mondrone 
+            de Medianeira, PR e agora estou em busca de começar minha vida academica 
+            no curso de Ciencias da Computação da UTFPR em Medianeira.
+            Logo abaixo estao os repósitorios de alguns projetos e atividades feitos
+            no decorrer dos 4 anos de curso Tecnico que tive"
           />
 
           <RepoLink
@@ -96,10 +99,17 @@ export default function Home() {
 
           <Text
             title="UI/UX"
-            content="Alem de dev, tambem estudo um pouco de design,UI e UX
-            vou deixar abaixo alguns dos meus projetos no figma, tanto de aplicações
-            mobile quanto aplicações web, design nao é meu foco principal, mas tenho
-            alguns conhecimentos na area que me ajudam, principalmente no front-end."
+            content="Além de ser desenvolvedor, também estudo design, UI e UX. 
+            Tenho conhecimentos em aplicações mobile e web, e gostaria de compartilhar 
+            alguns dos meus projetos no Figma. Embora o design não seja minha 
+            principal área de atuação, acredito que esses conhecimentos podem me 
+            ajudar, principalmente no front-end.
+
+            Minha paixão por tecnologia e design me levou a buscar mais conhecimento 
+            em UI/UX, e hoje posso aplicar esses conhecimentos em meus projetos 
+            de desenvolvimento. Acredito que o design é uma parte fundamental 
+            no processo de criação de uma aplicação, e busco sempre aprimorar 
+            minhas habilidades nessa área."
           />
 
           <FlatList />
