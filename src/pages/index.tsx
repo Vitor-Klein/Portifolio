@@ -47,7 +47,7 @@ export default function Home() {
             última Semana Omnistack promovida pela Rocketseat. Busco sempre 
             me manter atualizado com os conteúdos de ponta da Rocketseat e de 
             outras fontes confiáveis. Fique à vontade para entrar em contato 
-            ou me seguir nas redes sociais, cujos links estão disponíveis acima.
+            ou me seguir nas redes sociais.
             Nunca paro de aprender e estou aberto a novas oportunidades de trabalho."
           />
 
@@ -59,7 +59,7 @@ export default function Home() {
           />
 
           <RepoLink
-            name="Tras-It"
+            name="Trash-It"
             date="NOV 23, 2022"
             url="https://github.com/Vitor-Klein/TCC-TRASHIT-WEB"
           />
