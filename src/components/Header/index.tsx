@@ -22,15 +22,7 @@ const Header: React.FC = () => {
 
 
           <div className={styles.icons}>
-            <a href="https://www.linkedin.com/in/vitor-klein/" target="_blank">
-              <img src="/linkedin-icon.svg" alt="linkedin" />
-            </a>
-            <a href="https://www.instagram.com/vitor__klein/" target="_blank">
-              <img src="/insta-icon.svg" alt="insta" />
-            </a>
-            <a href="https://github.com/Vitor-Klein" target="_blank">
-              <img src="/git-icon.svg" alt="git" />
-            </a>
+
           </div>
         </header>
       </div>

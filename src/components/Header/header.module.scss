@@ -13,26 +13,18 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
 
     h2 {
       margin-left: 2rem;
       color: var(--gray4);
     }
   }
-  .icons {
-    img {
-      margin-right: 2rem;
-      cursor: pointer;
-    }
-    img:hover,
-    img:focus {
-      filter: invert(5%) sepia(1%) hue-rotate(346deg) brightness(500%) contrast(80%);
-    }
-  }
+
 
   .devIconsContainer {
-    margin-left: 7%;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
     .devIcons {
       display: flex;
       align-items: center;
