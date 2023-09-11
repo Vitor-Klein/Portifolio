@@ -1,29 +1,29 @@
-.container{
-  :hover{
-    opacity: 0.9;
+.container {
+  :hover {
+    color: #7159c1;
   }
-  .repo{
+  .repo {
     margin-top: 7.5rem;
     cursor: pointer;
     margin-bottom: 1rem;
-    background-color: var(--background);
+    background-color: transparent;
     border: none;
-  .repoTexts{
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
-    width: 60rem;
-  }
-  hr{
-    margin-top:1.2rem
-  }
+    .repoTexts {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 60rem;
+    }
+    hr {
+      margin-top: 1.2rem;
+    }
   }
 }
 
 @media (max-width: 700px) {
-  .container{
-    .repo{
-      .repoTexts{
+  .container {
+    .repo {
+      .repoTexts {
         width: 25rem;
       }
     }
