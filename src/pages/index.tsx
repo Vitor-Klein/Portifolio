@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import { Client } from "get-pinned-repos";
 
 import RepoLink from '../components/RepoLink';
 import Links from '../components/Links';
@@ -13,18 +14,18 @@ import styles from "../styles/home.module.scss";
 import repoAnimation from '../assets/git-animation.json';
 import devAnimation from '../assets/development.json';
 
+
+Client.setToken("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");
+// const pinned = Client.getPinnedRepos("Vitor-Klein");
 export default function Home() {
   const [repos, setRepos] = useState([]);
-
+  async function getRepos() {
+    const pinned = await Client.getPinnedRepos("Vitor-Klein");
+    setRepos(pinned);
+    console.log(pinned)
+  }
   useEffect(() => {
-    axios.get('https://api.github.com/users/Vitor-Klein/repos')
-      .then(response => {
-        setRepos(response.data);
-        console.log(response.data)
-      })
-      .catch(error => {
-        console.log(error);
-      });
+    getRepos()
   }, []);
 
 
@@ -76,25 +77,38 @@ export default function Home() {
             height={250}
             width={400}
           />
+          <div className={styles.repoGrid}>
+            {repos.map(repo => (
+              <RepoLink
+                name={repo.name}
+                date={repo.description}
+                url={repo.url}
+                image="./cover.svg"
+              />
+            ))}
+            {/* 
 
-          <RepoLink
-            name="Trash-It"
-            date="NOV 23, 2022"
-            url="https://github.com/Vitor-Klein/TCC-TRASHIT-WEB"
-          />
+            <RepoLink
+              name="Drink-It"
+              date="MAY 14, 2022"
+              url="https://github.com/Vitor-Klein/Drink-It"
+              image="./cover.svg"
+            />
 
-          <RepoLink
-            name="Drink-It"
-            date="MAY 14, 2022"
-            url="https://github.com/Vitor-Klein/Drink-It"
-          />
+            <RepoLink
+              name="Gameplay"
+              date="JUN 22, 2021"
+              url="https://github.com/Vitor-Klein/NLW-6-Trilha-ReactNative"
+              image="./cover.svg"
+            />
 
-          <RepoLink
-            name="Gameplay"
-            date="JUN 22, 2021"
-            url="https://github.com/Vitor-Klein/NLW-6-Trilha-ReactNative"
-          />
-
+            <RepoLink
+              name="TCC-TRASHIT-WEB"
+              date="JUN 21, 2022"
+              url="https://github.com/Vitor-Klein/TCC-TRASHIT-WEB"
+              image="./cover.svg"
+            /> */}
+          </div>
           <Text
             title="UI/UX"
             content="Além de ser desenvolvedor, também estudo design, UI e UX. 

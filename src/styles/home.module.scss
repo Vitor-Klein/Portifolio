@@ -77,6 +77,13 @@
         }
       }
     }
+
+    .repoGrid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Duas colunas */
+      gap: 50px;
+      margin-top: 5rem;
+    }
   }
 }
 
