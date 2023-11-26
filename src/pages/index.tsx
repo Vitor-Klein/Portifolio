@@ -15,7 +15,7 @@ import repoAnimation from '../assets/git-animation.json';
 import devAnimation from '../assets/development.json';
 
 
-Client.setToken("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");
+Client.setToken("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");
 // const pinned = Client.getPinnedRepos("Vitor-Klein");
 export default function Home() {
   const [repos, setRepos] = useState([]);
