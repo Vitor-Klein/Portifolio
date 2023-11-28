@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import { Client } from "get-pinned-repos";
-
 import RepoLink from '../components/RepoLink';
 import Links from '../components/Links';
 import Header from '../components/Header';
@@ -14,20 +12,31 @@ import styles from "../styles/home.module.scss";
 import repoAnimation from '../assets/git-animation.json';
 import devAnimation from '../assets/development.json';
 
+import { Client } from "get-pinned-repos";
 
-Client.setToken("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");
-// const pinned = Client.getPinnedRepos("Vitor-Klein");
 export default function Home() {
   const [repos, setRepos] = useState([]);
-  async function getRepos() {
-    const pinned = await Client.getPinnedRepos("Vitor-Klein");
-    setRepos(pinned);
-    console.log(pinned)
-  }
+
   useEffect(() => {
-    getRepos()
+    const token = process.env.NEXT_PUBLIC_GIT_API_KEY;
+    console.log("Token:", token);
+    if (token) {
+      Client.setToken(token);
+      getRepos();
+    } else {
+      console.error('Token não encontrado');
+    }
   }, []);
 
+  async function getRepos() {
+    try {
+      const pinned = await Client.getPinnedRepos("Vitor-Klein");
+      setRepos(pinned);
+      console.log(pinned);
+    } catch (error) {
+      console.error('Erro ao buscar repositórios:', error);
+    }
+  }
 
   return (
     <>

@@ -7,8 +7,8 @@ function MyApp({ Component, pageProps }) {
         theme={{
           components: {
             Card: {
-              colorTextHeading: '#E1FAEC',
-              colorTextDescription: '#9E9E9E',
+              colorTextHeading: '#F3E1FA',
+              colorTextDescription: '#B1A4B6',
               borderRadiusLG: 2
             }
           }
