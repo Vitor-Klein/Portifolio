@@ -19,7 +19,6 @@ export default function Home() {
 
   useEffect(() => {
     const token = process.env.NEXT_PUBLIC_GIT_API_KEY;
-    console.log("Token:", token);
     if (token) {
       Client.setToken(token);
       getRepos();
@@ -32,7 +31,6 @@ export default function Home() {
     try {
       const pinned = await Client.getPinnedRepos("Vitor-Klein");
       setRepos(pinned);
-      console.log(pinned);
     } catch (error) {
       console.error('Erro ao buscar repositórios:', error);
     }
