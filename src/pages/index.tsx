@@ -1,12 +1,13 @@
 import Head from 'next/head';
 import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+
 import RepoLink from '../components/RepoLink';
 import Links from '../components/Links';
 import Header from '../components/Header';
 import Text from '../components/Text';
 import Animation from '../components/Animation';
 import FlatList from '../components/flatList';
+import Carrosel from '../components/Carrosel';
 
 import styles from "../styles/home.module.scss";
 import repoAnimation from '../assets/git-animation.json';
@@ -93,28 +94,7 @@ export default function Home() {
                 image="./cover.svg"
               />
             ))}
-            {/* 
 
-            <RepoLink
-              name="Drink-It"
-              date="MAY 14, 2022"
-              url="https://github.com/Vitor-Klein/Drink-It"
-              image="./cover.svg"
-            />
-
-            <RepoLink
-              name="Gameplay"
-              date="JUN 22, 2021"
-              url="https://github.com/Vitor-Klein/NLW-6-Trilha-ReactNative"
-              image="./cover.svg"
-            />
-
-            <RepoLink
-              name="TCC-TRASHIT-WEB"
-              date="JUN 21, 2022"
-              url="https://github.com/Vitor-Klein/TCC-TRASHIT-WEB"
-              image="./cover.svg"
-            /> */}
           </div>
           <Text
             title="UI/UX"
@@ -125,7 +105,8 @@ export default function Home() {
             ajudar, principalmente no front-end."
           />
 
-          <FlatList />
+          <Carrosel />
+          {/* <FlatList /> */}
 
           <Links />
         </div>

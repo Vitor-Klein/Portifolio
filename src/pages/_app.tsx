@@ -1,5 +1,6 @@
 import '../styles/global.scss'
-import { Button, ConfigProvider, Space } from 'antd';
+import { ConfigProvider } from 'antd';
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -10,7 +11,7 @@ function MyApp({ Component, pageProps }) {
               colorTextHeading: '#F3E1FA',
               colorTextDescription: '#B1A4B6',
               borderRadiusLG: 2
-            }
+            },
           }
         }}
       >
